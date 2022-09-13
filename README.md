@@ -8,9 +8,15 @@ First, run the development server:
 yarn dev
 ```
 
-```bash
-yarn export
-```
+## use in chrome
+
+1. ```bash
+    yarn export
+    ```
+
+2. open brave://extensions/
+3. load Unpacked
+4. select this directory
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
