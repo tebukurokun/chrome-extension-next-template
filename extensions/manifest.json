@@ -1,0 +1,13 @@
+{
+  "name": "extension-demo",
+  "description": "extension-demo",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "./dist/index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "bookmarks", "activeTab"]
+}
